@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;600;700&display=swap');
+:root{
+    --mcolor:#ffc527;
+}
+ul{
+    padding:0;
+    color: var(--mcolor);
+}
+ul li{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+body{
+
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;}
+section{
+    padding: 100px 0}
+
+  .title{
+      position: relative;
+      display: inline-block;
+    
+  } 
+  .title:after{
+      content: " ";
+      height: 5px;
+      width:90%;
+      display: block;
+      background-color: var(--mcolor);
+      margin-top:5px;
+  } 
+
+.nav-img{
+    height:30px;
+    width:30px;
+}
+.navbar{
+    box-shadow: 1px 2px 5px #ccc;
+}
+.home{
+    height:550px;
+    background-image: url(./img/slide-bg-1.jpg);
+    background-size: cover;
+    padding: 1px; 
+/*      هنا ضرورية بادينج ليفصل بين الاب والابن ويكون المارجن يعود للاب
+ */
+}
+.home-item{
+    width:50%;
+    margin-right:auto;
+    margin-top: 13%;
+}
+.home-item h2{
+    font-size: 55px;
+    color: #fff;
+}
+
+.home-item p{
+    font-size: 25px;
+    color: #fff;
+
+}
+.about-item{
+    margin-top: 20%; 
+}
+.more{
+ /*    background-color: #ccc; */
+    height:600px;
+}
+.news__pic{
+    width: 90%;
+}
+.item_new{
+    display:flex;
+}
+.item_new img{
+    margin-left: 15px;
+}
+.img-plane{
+    height: 100%;
+   width: 100%; 
+}
+.bi-heart-fill{
+    margin-top:0;
+    width: 100px;
+    height: 100px;
+margin-top:5px;
+color:#ffc527;
+font-size:60px;
+}
+.subscribe {
+    background-size: cover;
+    padding: 1px; 
+    background-image:url(./img/slide-bg-2.jpg);
+    height:550px;
+    position: relative;
+
+}
+.subscribe-item{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    color: #fff;
+    text-align: center;
+}
+.subscribe-item h2{
+    font-size:30px;
+    color: #ffc527;
+  
+}
+.subscribe-item .form{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-item input{
+    width:80%;
+
+}
+.subscribe-item button{
+    width:15%;
+}
+.footer{
+    height:300px;
+    color:#fff;
+
+}
+.footer-item {
+    Justify-content:space-between;
+}
+.footer-item img{
+    height:100px;
+    width:100px;
+}
+.item_footer{
+    display: flex;
+}
+.item_footer img {
+    height:60px;
+    width:60px;
+}
+.item_footer p {
+   font-size:14px
+}
+.item_footer img{
+margin-left:15px;
+}
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-footer input{
+    height:40px;
+    width:60%;
+}
+.form-footer button{
+    height:40px;
+    width:35%;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#ffc527
+}
